@@ -13,7 +13,7 @@ n=1
 while n <= part_nb:
     part_from.append(input("Please enter the name of person "+str(n)+": "))
     n+=1
-print(part_from)
+print("These are your participants: ", part_from)
 
 #2. Attribute the presents
 import random
